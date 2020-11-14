@@ -1,0 +1,4 @@
+$(() => {
+  $("#title").show();
+  $("#image").fadeIn();
+})
