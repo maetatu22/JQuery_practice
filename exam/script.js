@@ -9,10 +9,10 @@ $(() => {
 
   $(".lesson").hover(
     function() { 
-      $(this).find(".text-contents").addClass("text-active");
+      $(this).find(".text-contents").fadeIn();
     },
     function() {
-      $(this).find(".text-contents").removeClass("text-active");
+      $(this).find(".text-contents").fadeOut();
     });
 
 });
