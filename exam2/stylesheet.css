@@ -282,3 +282,7 @@ footer p {
 footer {
   padding-top: 30px;
 }
+
+.answer{
+  display: none;
+}

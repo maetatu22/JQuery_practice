@@ -19,6 +19,18 @@ $(function() {
     }
   );
   
-  
+
+  $('.faq-list-item').click(() => {
+    var $answer = $(this).find(".answer")
+    if($answer.hasClass("open")){
+      $answer.removeClass("open");
+      $answer.fadeOut();
+      $(this).find("span").text("+");
+    }else{
+      $answer.addClass("open");
+      $answer.fadeIn();
+      $(this).find("span").text("-");
+    }
+  });
 
 });
