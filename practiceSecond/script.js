@@ -20,4 +20,14 @@ $(() => {
       $(this).find(".text-contents").removeClass("text-active")
     }
   );
+
+  $(".faq-list-item").click(function() {
+    var $answer = $(this).find(".answer")
+
+    if($answer.hasClass("open")){
+      $answer.removeClass("open");
+    }else{
+      $answer.addClass("open");
+    }
+  });
 });
