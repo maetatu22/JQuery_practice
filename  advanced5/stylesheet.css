@@ -35,8 +35,6 @@ ul {
   cursor: pointer;
   float: left;
   display: none;
-  
-  
 }
 
 .next-btn {
@@ -82,4 +80,3 @@ ul {
   color: #fff;
   background-color: #5cabd0;
 }
-

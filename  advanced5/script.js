@@ -4,7 +4,7 @@ $(() => {
     $(".change-btn").show();
     if(slideIndex == 0){
       $(".prev-btn").hide();
-    }else if(slideIndex == 3){
+    }else if(slideIndex == $(".slide").length-1){
       $(".next-btn").hide();
     }
   }
