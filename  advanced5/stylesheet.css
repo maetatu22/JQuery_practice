@@ -34,7 +34,7 @@ ul {
 .prev-btn {
   cursor: pointer;
   float: left;
-  /* 初期状態では非表示にしてください */
+  display: none;
   
   
 }
@@ -83,6 +83,3 @@ ul {
   background-color: #5cabd0;
 }
 
-.prev-btn{
-  display: none;
-}
