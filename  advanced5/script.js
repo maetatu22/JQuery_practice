@@ -23,6 +23,14 @@ $(() => {
       $displaySlide.prev().addClass('active');
     }
 
+    var slideIndex = $(".slide").index($(".active"));
+    $(".change-btn").show();
+    if(slideIndex == 0){
+      $(".prev-btn").hide();
+    }else if(slideIndex == 3){
+      $(".next-btn").hide();
+    }
+
 
   });
 });
