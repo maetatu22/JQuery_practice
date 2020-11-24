@@ -1,6 +1,8 @@
 $(() => {
   $("#form").submit(function(){
-    const textValue = $("#text-form").val();
+    var selectValue = $("#select-form").val();
+    var textValue = $("#text-form").val();
+    $("#output-select").text(selectValue);
     $("#output-text").text(textValue);
     return false;
   })
