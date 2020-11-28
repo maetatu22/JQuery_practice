@@ -13,6 +13,8 @@ $(() => {
   );
 
   $("#top-btn").click(function(){
-    $("html, body").scrollTop(50);
+    $("html, body").animate({
+      'scrollTop':0
+    },'slow');
   })
 });
